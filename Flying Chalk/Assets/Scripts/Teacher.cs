@@ -19,7 +19,7 @@ public class Teacher : MonoBehaviour
     {
         //shoot chalk at random students or player
         Transform throwchalk = Instantiate(chalk, firepoint.position,Quaternion.identity);
-        Vector3 shootDir = (firepoint.position - targets[0].position).normalized;
+        Vector3 shootDir = (targets[0].position - firepoint.position).normalized;
         throwchalk.GetComponent<Chalk>().setup(shootDir);
 
         //random time to call this function again

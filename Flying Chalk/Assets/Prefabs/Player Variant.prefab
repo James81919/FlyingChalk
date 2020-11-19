@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &488980828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488980829}
+  - component: {fileID: 488980831}
+  - component: {fileID: 488980830}
+  m_Layer: 0
+  m_Name: Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488980829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488980828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.288}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7047480963696401673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488980831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488980828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd57f4e16dbe484191882e5c1e94c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &488980830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488980828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1.46}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &175200945144214058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,6 +69,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f827e95ca7756459dd1557eda36043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  students:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  studentDirections: []
 --- !u!1001 &2693860291160744234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80,5 +147,10 @@ PrefabInstance:
 --- !u!1 &8332432145224482385 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6251063671129907067, guid: 440ab54b713f1484ca659de0b56916f8, type: 3}
+  m_PrefabInstance: {fileID: 2693860291160744234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7047480963696401673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4949224205781122083, guid: 440ab54b713f1484ca659de0b56916f8, type: 3}
   m_PrefabInstance: {fileID: 2693860291160744234}
   m_PrefabAsset: {fileID: 0}

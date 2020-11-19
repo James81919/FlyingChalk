@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Student
+  - Chalk
   layers:
   - Default
   - TransparentFX
